@@ -8,12 +8,14 @@ import DonateFood from './navbarLink/DonateFood'
 const App = () => {
   return (
     <div>
-      {/* <Header></Header> */}
-      {/* <HomePage></HomePage> */}
-      {/* <Footer></Footer> */}
+      <Header></Header>
+      <HomePage></HomePage>
+      {/* <DonateFood/> */}
+     
        {/* <About></About>  */}
+        <Footer></Footer>
 
-<DonateFood/>
+
     </div>
   )
 }

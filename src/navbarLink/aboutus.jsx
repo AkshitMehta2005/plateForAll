@@ -11,17 +11,17 @@ const About = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     arrows: false,
   };
 
   return (
-    <section className="bg-green-100 text-gray-800 py-12 px-6 md:px-12">
+    <section className="bg-green-100 text-gray-800 py-12 px-6 md:px-12 mt-30">
       <div className="container mx-auto">
 
         {/* About Content */}
         <h1 className="text-4xl font-bold text-green-700 text-center mb-8">
-          About <span className="text-green-500">Food Rescue</span>
+          About <span className="text-green-500">PlateForAll</span>
         </h1>
 
         {/* Image Slider */}
